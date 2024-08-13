@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  bottom: 0;
+  box-sizing: 0;
+}
+.landingpage {
+  background-image: url("../images/eCommerce-Website-Features-1920-x-1080.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+    /* filter: brightness(90%); */
+    /* filter: invert(100%); */
+    /* filter: sepia(90%); */
+    /* filter: hue-rotate(90deg); */
+    /* filter: blur(5px); */
+    /* filter: grayscale(1); */
+}
+.merchant{
+    margin-left: 50em;
+    margin-right: 3em;
+    transition: 1s;
+    /* filter: grayscale(1); */
+}
+.merchant:hover,.user:hover{
+    transform: scale(1.1);
+    /* scale: 1.1; */
+    /* filter: grayscale(0); */
+}
+.merchant img{
+    border: 4px groove yellow;
+}
+.user img{
+    border: 3px groove skyblue;
+}
+.merchant img:hover{
+    border: 3px groove yellow;
+    filter: drop-shadow(10px 5px 10px orange);
+}
+.user img:hover{
+    border: 4px groove skyblue;
+    filter: drop-shadow(10px 5px 10px rgb(13, 105, 142));
+}
+.user{
+    transition: 1s;
+    /* filter: grayscale(1); */
+}
+.merchant Button{
+    margin: 0px 0px 0px 120px;
+}
+.user Button{
+    margin-left: 140px;
+}
+.merchant img{
+    height: 20em;
+    width: 20em;
+    border-radius: 100%;
+}
+.user img{
+    height: 20em;
+    width: 20em;
+    border-radius: 100%;
+}

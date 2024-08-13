@@ -1,0 +1,33 @@
+.usernavbar{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid darkgreen;
+    height: 7em;
+    background-color: rgba(170, 221, 103, 0.852);
+}
+.usernavbarlogo{
+    margin-left: 5em;
+    margin-top: 10px;
+}
+.usernavbardropdown{
+    margin-right: 4em;
+    margin-top: 2em;
+}
+.usernavbaroption{
+    margin-top: 2em;
+}
+.usernavbarlogomove1{
+    position: relative;
+    
+}
+.usernavbarlogomove2{
+    position: relative;
+    left: 2.6em;
+    bottom: 10px;
+}
+.usernavbarlogo h1 b{
+    color: rgb(12, 175, 12);
+}
+.usernavbarlogo h1>h1{
+    color: rgb(189, 21,21);
+}

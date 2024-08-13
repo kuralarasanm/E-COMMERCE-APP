@@ -1,0 +1,85 @@
+.merchantupdate{
+    /* background-image: url("../images/Blog_Cover_2_Page_02_00a2e54860.webp"); */
+    height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-color: cadetblue;
+}
+
+.merchantupdateform{
+    display: grid;
+    border: 2px solid #ffb006cf;
+    border-radius: 25% 10%;
+    height: 35em;
+    width: 35em;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    /* backdrop-filter: blur(15px); */
+    background: rgb(215, 227, 194);
+    box-shadow: 0 0 20px rgb(209, 224, 109),0 0 40px rgb(18, 219, 31);
+    /* animation: bounce 1s infinite;
+    /* animation: pulse 2s infinite; */
+    /* animation: fadein 1s infinite;  */
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate;  */
+}
+@keyframes bounce{
+    0%{transform: translateY(0);}
+    40%{transform: translateY(-20px);}
+    60%{transform: translateY(-20px);}
+}
+@keyframes pulse{
+    0%,100%{transform: scale(1);}
+    50%{transform: scale(1.1);}
+}
+@keyframes fadein{
+    0%{opacity: 0;}
+    50%{opacity: 5;}
+    100%{opacity: 0;}
+}
+.merchantupdateform:hover{
+    animation: none;
+    cursor: pointer;
+}
+.merchantupdateform h1{
+    text-align: center;
+    color: cadetblue;
+    /* text-shadow: 0 0 20px chocolate,0 0 40px chocolate; */
+}
+.merchantupdateform form{
+    display: grid;
+    grid-template-columns: 150px 200px;
+    align-items: center;
+    justify-content: center;
+}
+.merchantupdateform input,label{
+    margin-bottom: 40px;
+}
+.merchantupdateform button{
+    /* color: rgb(231, 227, 227); */
+    font-size: 18px;
+    position: relative;
+    left: 100px;
+}
+.merchantupdateform label{
+    color: cornflowerblue;
+    font-size: 18px;
+    font-weight: bold;
+}
+.merchantupdateform input{
+    border: 2px solid white;
+    background: transparent;
+    border-radius: 10px;
+    color: rgb(10, 82, 106);
+}
+.merchantupdateform input::placeholder{
+    color: rgb(13, 6, 11);
+}
+.merchantupdateform input:focus{
+    outline: 3px solid seagreen;
+}

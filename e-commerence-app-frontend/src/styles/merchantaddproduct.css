@@ -1,0 +1,60 @@
+.merchantaddproductform{
+    display: grid;
+    border: 2px solid #FFB206;
+    border-radius: 25% 10%;
+    height: 38em;
+    width: 35em;
+    align-items: center;
+    position: absolute;
+    top: 16%;
+    left: 33%;
+}
+.merchantaddproductform form{
+    display: grid;
+    grid-template-columns: 150px 200px;
+    align-items: center;
+    justify-content: center;
+}
+.merchantaddproductform label,input{
+    margin-bottom: 40px;
+}
+.merchantaddproductform label{
+    color: cornflowerblue;
+    font-size: 18px;
+    font-weight: bold;
+}
+.merchantaddproductform h1{
+    text-align: center;
+    color: cadetblue;
+    /* text-shadow: 0 0 20px chocolate,0 0 40px chocolate; */
+}
+.merchantaddproductform button{
+    color: rgb(174, 190, 123);
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+    background-color: #b56f8d;
+    height: 40px;
+    width: 8em;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.merchantaddproductform label{
+    color: cornflowerblue;
+    font-size: 18px;
+    font-weight: bold;
+}
+.merchantaddproductform input{
+    border: 2px solid rgb(195, 210, 26);
+    background: transparent;
+    border-radius: 10px;
+    color: rgb(10, 82, 106);
+    height: 40px;
+    width: 15em;
+}
+.merchantaddproductform input::placeholder{
+    color: rgb(13, 6, 11);
+}
+.merchantaddproductform input:focus{
+    outline: 3px solid rgb(106, 198, 146);
+}

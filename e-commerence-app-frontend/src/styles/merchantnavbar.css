@@ -1,0 +1,40 @@
+.merchantnavbar{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid darkgreen;
+    height: 7em;
+    background-color: rgba(170, 221, 103, 0.852);
+}
+.merchantnavbarlogo{
+    margin-left: 5em;
+    margin-top: 10px;
+}
+.merchantnavbardropdown{
+    margin-right: 4em;
+    margin-top: 2em;
+}
+.merchantnavbaroption{
+    margin-top: 2em;
+}
+.merchantnavbaroption a{
+    margin-right: 5em;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: crimson;
+}
+.merchantnavbarlogomove1{
+    position: relative;
+    
+}
+.merchantnavbarlogomove2{
+    position: relative;
+    left: 2.6em;
+    bottom: 10px;
+}
+.merchantnavbarlogo h1 b{
+    color: rgb(12, 175, 12);
+}
+.merchantnavbarlogo h1>h1{
+    color: rgb(189, 21, 21);
+}

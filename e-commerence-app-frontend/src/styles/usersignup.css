@@ -1,0 +1,61 @@
+.usersignup{
+    background-image: url("../images/785054-ecommerce-istock-020119.jpg");
+    height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.usersignupform{
+    display: grid;
+    border: 2px solid #FFB206;
+    border-radius: 25% 10%;
+    height: 35em;
+    width: 35em;
+    align-items: center;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    backdrop-filter: blur(5px);
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0 0 20px rgb(18, 142, 219),0 0 40px rgb(219, 18, 18);
+}
+.usersignupform h1{
+    text-align: center;
+    color: cadetblue;
+    text-shadow: 0 0 20px chocolate,0 0 40px chocolate;
+}
+.usersignupform form{
+    display: grid;
+    grid-template-columns: 150px 200px;
+    align-items: center;
+    justify-content: center;
+}
+.usersignupform input,label{
+    margin-bottom: 40px;
+}
+.usersignupform button{
+    /* color: rgb(231, 227, 227); */
+    font-size: 18px;
+    position: relative;
+    left: 100px;
+}
+.usersignupform label{
+    color: cornflowerblue;
+    font-size: 18px;
+    font-weight: bold;
+}
+.usersignupform input{
+    border: 2px solid white;
+    background: transparent;
+    border-radius: 10px;
+    color: rgb(10, 82, 106);
+}
+.usersignupform input::placeholder{
+    color: rgb(13, 6, 11);
+}
+.usersignupform input:focus{
+    outline: 3px solid seagreen;
+}
+.usersignupgender input{
+    margin-left: 10px;
+}
